@@ -13,6 +13,6 @@ var CONFIG = {
   form4Consumidor:'https://forms.gle/nxbdjKMJTvCFkUkb9',   // 4. Material de construção, armarinho e utensílios
   boletimUrl:     '',   // link do PDF do boletim (ex.: Google Drive, acesso "qualquer pessoa com o link")
   painelUrl:      '',   // link de incorporação do Looker Studio / Power BI (opcional)
-  email:          '',   // e-mail de contato do projeto, ex.: 'obva.capanema@gmail.com'
+  email:          'obva.capanema@gmail.com',   // e-mail de contato do projeto, ex.: 'obva.capanema@gmail.com'
   instagram:      ''    // ex.: 'https://instagram.com/seuperfil'
 };

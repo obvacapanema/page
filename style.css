@@ -365,3 +365,11 @@ button.d-leg-i:hover{border-color:var(--line);color:var(--ink)}
 .d-kpis+.d-kpis{margin-top:20px}
 #painel>.card,#painel>.d-grid,#painel>.d-kpis{margin-top:20px}
 #painel>*:first-child{margin-top:0}
+
+/* APOIO INSTITUCIONAL */
+.apoio{text-align:center;max-width:760px;margin:0 auto}
+.apoio p{color:var(--muted);margin:0 auto 26px;max-width:620px}
+.apoio-logo{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 26px;box-shadow:0 6px 24px rgba(0,0,0,.06)}
+.apoio-logo img{display:block;width:100%;max-width:460px;height:auto}
+@media (max-width:480px){.apoio-logo{padding:14px 16px}}
+.apoio h2{margin-bottom:18px}

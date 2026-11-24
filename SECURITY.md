@@ -2,7 +2,7 @@
 
 ## Como relatar um problema
 
-Se você encontrou uma falha de segurança ou um dado exposto por engano nesta página ou nos materiais do projeto, escreva para **[E-MAIL DE CONTATO DO PROJETO]** com o assunto "Segurança". Não publique o problema antes de falarmos. Respondemos em até 5 dias úteis.
+Se você encontrou uma falha de segurança ou um dado exposto por engano nesta página ou nos materiais do projeto, escreva para **obva.capanema@gmail.com** com o assunto "Segurança". Não publique o problema antes de falarmos. Respondemos em até 5 dias úteis.
 
 ## O que esta página faz para se proteger
 

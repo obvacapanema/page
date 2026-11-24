@@ -25,7 +25,7 @@ Abra o `config.js` e preencha os campos. Há um par de formulários (lojista e c
 ## 2. Preencha os marcadores em `privacidade.html`
 
 Procure por `[` no arquivo e substitua:
-- `[E-MAIL DE CONTATO DO PROJETO]` (aparece 1 vez na seção 1; repita o e-mail também em `SECURITY.md`);
+- E-mail institucional (obva.capanema@gmail.com): já preenchido em `config.js` e em `privacidade.html` e `SECURITY.md`;
 - `[PRAZO, ex.: 5 anos após o encerramento]` (seção 5).
 
 Sem isso, a página publica texto com marcadores.
