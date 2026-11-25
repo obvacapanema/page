@@ -18,7 +18,12 @@
     var k = a.getAttribute('data-cfg'), v;
     v = (k === 'email') ? safeEmail(C.email) : safeUrl(C[k]);
     if(v){
-      if(k === 'email'){ a.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(v) + '&su=' + encodeURIComponent(a.getAttribute('data-subject') || ''); a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+      if(k === 'email'){
+        var su = encodeURIComponent(a.getAttribute('data-subject') || '');
+        var cel = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent) || (window.matchMedia && matchMedia('(pointer:coarse)').matches);
+        if(cel){ a.href = 'mailto:' + v + '?subject=' + su; }   // celular: abre o app de e-mail
+        else { a.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(v) + '&su=' + su; a.target = '_blank'; a.rel = 'noopener noreferrer'; }   // computador: Gmail na web
+      }
       else { a.href = v; a.target = '_blank'; a.rel = 'noopener noreferrer'; }
     } else {
       a.className = a.className + ' disabled';
